@@ -23,3 +23,5 @@ This guide will be a mixture of hands on computer, mechanical, electrical engine
 + [Gear Types, Design Basics, Applications and More - Basics of Gears](https://youtu.be/ZhDO16FDmxA?si=TrhTgkIMsFZLdley)
 + [Levers and 4 Bar Linkages](https://youtu.be/0MYF8YCf2jQ?si=RR6by026zaeGyJ01)
 + [Wavelets: a mathematical microscope](https://www.youtube.com/watch?v=jnxqHcObNK4&ab_channel=ArtemKirsanov)
++ [Easy inverse kinematics for robot arms](https://youtu.be/Q-UeYEpwXXU?si=-LuqWcVNqyQoCUL-)
++ [5.1 Inverse Kinematics](https://www.youtube.com/watch?v=RH3iAmMsolo&ab_channel=Woolfrey)
