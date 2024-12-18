@@ -18,6 +18,14 @@ This guide will be a mixture of hands on computer, mechanical, electrical engine
 
 ## Linkages
 
+Linkages are levers connected at multiple points, commonly 4-points, where three of the bars of the linkage move and one is static. An interesting example of this might be an end effector where two linkages are mirror to create a kind of manipulator.  
+
+![Screenshot 2024-12-17 203006](https://github.com/user-attachments/assets/71f6323f-ad55-44bf-bcd9-2b8e10e25575)
+
+![Screenshot 2024-12-17 203006 - Copy](https://github.com/user-attachments/assets/fc965577-48de-4fe0-b023-00ccb4a598d1)
+
+![Untitled](https://github.com/user-attachments/assets/8570c44a-f5a7-4cae-90cc-804914a9730a)
+
 ## Sources
 + [Mini servo gripper](https://www.thingiverse.com/thing:2415)
 + [Gear Types, Design Basics, Applications and More - Basics of Gears](https://youtu.be/ZhDO16FDmxA?si=TrhTgkIMsFZLdley)
