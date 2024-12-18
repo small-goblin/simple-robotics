@@ -18,13 +18,33 @@ This guide will be a mixture of hands on computer, mechanical, electrical engine
 
 ## Linkages
 
-Linkages are levers connected at multiple points, commonly 4-points, where three of the bars of the linkage move and one is static. An interesting example of this might be an end effector where two linkages are mirror to create a kind of manipulator.  
+Linkages are levers connected at multiple points, commonly 4-points, where three of the bars of the linkage move and one is static. An interesting example of this might be an end effector where two linkages are mirrored to create a kind of manipulator.  
 
 ![Screenshot 2024-12-17 203006](https://github.com/user-attachments/assets/71f6323f-ad55-44bf-bcd9-2b8e10e25575)
 
 ![Screenshot 2024-12-17 203006 - Copy](https://github.com/user-attachments/assets/fc965577-48de-4fe0-b023-00ccb4a598d1)
 
 ![Untitled](https://github.com/user-attachments/assets/8570c44a-f5a7-4cae-90cc-804914a9730a)
+
+The mathematics can be simple. To move (x,y) to (x,y).2 simply move the two inner bars of the  linkage some degrees. The linkage is configured in a 1:1 ratio, so the degrees moved will be the same for each bar. Convenient! 
+
+![image](https://github.com/user-attachments/assets/561b82a7-af5f-4ea8-8510-086aef6b6dde)
+
+![image](https://github.com/user-attachments/assets/55d87179-81e0-4e1b-b863-6c9f85686539)
+
+This gives a couple of right angles, which is useful for trig operations. 
+
+If we want to find what angle A to turn to position at (A,B)...
+
+We can use (X,Y), which we should know if we know (A,B)
+
+arctan(Y/X) = A
+
+Useful if we're making a pincher. (A,B) follows the same line as (x,y)
+
+![image](https://github.com/user-attachments/assets/cea5ade7-630c-43a6-a851-38aded93d25e)
+
+
 
 ## Sources
 + [Mini servo gripper](https://www.thingiverse.com/thing:2415)
