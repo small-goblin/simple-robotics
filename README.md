@@ -30,19 +30,12 @@ The mathematics can be simple. To move (x,y) to (x,y).2 simply move the two inne
 
 ![image](https://github.com/user-attachments/assets/561b82a7-af5f-4ea8-8510-086aef6b6dde)
 
-![image](https://github.com/user-attachments/assets/55d87179-81e0-4e1b-b863-6c9f85686539)
+If we wanted to move some distance to a new X,Y but don't know what angle to use, it's simple.
 
-This gives a couple of right angles, which is useful for trig operations. 
+![image](https://github.com/user-attachments/assets/5b37d756-4d3a-4d05-88d6-95740430e468)
 
-If we want to find what angle A to turn to position at (A,B)...
 
-We can use (X,Y), which we should know if we know (A,B)
 
-arctan(Y/X) = A
-
-Useful if we're making a pincher. (A,B) follows the same line as (x,y)
-
-![image](https://github.com/user-attachments/assets/cea5ade7-630c-43a6-a851-38aded93d25e)
 
 
 
