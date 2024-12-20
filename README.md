@@ -34,7 +34,11 @@ If we wanted to move some distance to a new X,Y but don't know what angle to use
 
 ![image](https://github.com/user-attachments/assets/5b37d756-4d3a-4d05-88d6-95740430e468)
 
+The length of the links can be varied to influence the angles. Commonly, this seems to be done in ratios much like gears.
 
+![image](https://github.com/user-attachments/assets/26e2d486-ed61-4540-8d3b-001e17789239)
+
+This mechanism seems to be called a "rocker" because it rocks back and forth.
 
 
 
@@ -46,3 +50,4 @@ If we wanted to move some distance to a new X,Y but don't know what angle to use
 + [Wavelets: a mathematical microscope](https://www.youtube.com/watch?v=jnxqHcObNK4&ab_channel=ArtemKirsanov)
 + [Easy inverse kinematics for robot arms](https://youtu.be/Q-UeYEpwXXU?si=-LuqWcVNqyQoCUL-)
 + [5.1 Inverse Kinematics](https://www.youtube.com/watch?v=RH3iAmMsolo&ab_channel=Woolfrey)
++ [Mechanical Design](https://www.youtube.com/watch?v=CZuBeBztzSY&ab_channel=InfinityMFG)
