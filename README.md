@@ -40,6 +40,11 @@ The length of the links can be varied to influence the angles. Commonly, this se
 
 This mechanism seems to be called a "rocker" because it rocks back and forth.
 
+Lastly, the maths around chains. A 2D robot arm that needs to reach some point (x,y) can be expressed this way mathematically to the best of my ability.
+
+![image](https://github.com/user-attachments/assets/9952a76a-f1e4-434c-b5fa-ed229dc7c2e9)
+
+
 
 
 
