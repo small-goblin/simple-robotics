@@ -40,9 +40,33 @@ The length of the links can be varied to influence the angles. Commonly, this se
 
 This mechanism seems to be called a "rocker" because it rocks back and forth.
 
-Lastly, the maths around chains. A 2D robot arm that needs to reach some point (x,y) can be expressed this way mathematically to the best of my ability.
+How about hain arms that needs to reach some point (x,y)? 
 
-![image](https://github.com/user-attachments/assets/9952a76a-f1e4-434c-b5fa-ed229dc7c2e9)
+![image](https://github.com/user-attachments/assets/fead1917-ac5b-40c3-bf0f-dc92c5530992)
+
+![image](https://github.com/user-attachments/assets/0ad5f3c8-1cdc-4bb8-86c4-1e17e3d73a99)
+
+![image](https://github.com/user-attachments/assets/f1c57a79-f68d-4517-8098-6859209c4414)
+
+![image](https://github.com/user-attachments/assets/ee28983a-3374-4cfb-a598-afc05dcb9c9c)
+
+![image](https://github.com/user-attachments/assets/383225ab-e5f0-42ef-8619-c380ebecfe26)
+
+![image](https://github.com/user-attachments/assets/1e477b67-06e8-4012-82b2-7772cadbf009)
+
+![image](https://github.com/user-attachments/assets/eca88777-612d-4a4e-ab53-8a280a8a3641)
+
+![image](https://github.com/user-attachments/assets/4e90ee4d-287a-4f9c-8c7d-8d388248f62f)
+
+![image](https://github.com/user-attachments/assets/ab961bae-4b86-4d57-98ad-88d477b3055f)
+
+![image](https://github.com/user-attachments/assets/253ddeb9-f257-4d0d-a86b-ec59e4849dd0)
+
+![image](https://github.com/user-attachments/assets/8a781126-5877-4449-9512-b54b38dc5e69)
+
+![image](https://github.com/user-attachments/assets/c34706ed-6128-4f25-bd8e-c6be04ed1f0f)
+
+![image](https://github.com/user-attachments/assets/842a21de-2347-4665-9fa6-19d5094b026e)
 
 
 
