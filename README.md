@@ -40,33 +40,48 @@ The length of the links can be varied to influence the angles. Commonly, this se
 
 This mechanism seems to be called a "rocker" because it rocks back and forth.
 
-How about hain arms that needs to reach some point (x,y)? 
+How about a chain arms that needs to reach some point (x,y)? 
 
 ![image](https://github.com/user-attachments/assets/fead1917-ac5b-40c3-bf0f-dc92c5530992)
+
+We can express this chain arm first in 2d. The segments of the arm move in a circular motion. The segments themselves form the radius of a circule, with the joint being at the center. If the previous segment moves, this displaces the location of next segment. 
 
 ![image](https://github.com/user-attachments/assets/0ad5f3c8-1cdc-4bb8-86c4-1e17e3d73a99)
 
 ![image](https://github.com/user-attachments/assets/f1c57a79-f68d-4517-8098-6859209c4414)
 
+The arm itself will only ever be able to reach points that are under each segments combined length. Provided there are no restrictions on the angle that the segments can bend. 
+
 ![image](https://github.com/user-attachments/assets/ee28983a-3374-4cfb-a598-afc05dcb9c9c)
+
+If we'd like to align the arm to some point (x,y) it's possible by defining each segment as a circlular equation and then solving where they intersect. Where the circles intersect (often more than one place) is where the joint (h,k) can be moved to angle the arm properly to reach (x,Y)
 
 ![image](https://github.com/user-attachments/assets/383225ab-e5f0-42ef-8619-c380ebecfe26)
 
-![image](https://github.com/user-attachments/assets/1e477b67-06e8-4012-82b2-7772cadbf009)
+Once we know the complete cordinates, finding the angles is manner of solving some trig functions. 
 
 ![image](https://github.com/user-attachments/assets/eca88777-612d-4a4e-ab53-8a280a8a3641)
 
-![image](https://github.com/user-attachments/assets/4e90ee4d-287a-4f9c-8c7d-8d388248f62f)
+We can add a third dimension. The base (shoulder) has 2 degrees of freedom while the elbow has 1 degree of freedom. We can slice the arm into two places. Once which the base rotates along, and another which the elbow rotates along. The because 2, 2d operations.
 
 ![image](https://github.com/user-attachments/assets/ab961bae-4b86-4d57-98ad-88d477b3055f)
 
 ![image](https://github.com/user-attachments/assets/253ddeb9-f257-4d0d-a86b-ec59e4849dd0)
 
+First the position of the elbow in 2d space. 
+
+
+![image](https://github.com/user-attachments/assets/4e90ee4d-287a-4f9c-8c7d-8d388248f62f)
+
 ![image](https://github.com/user-attachments/assets/8a781126-5877-4449-9512-b54b38dc5e69)
+
+Then the rotation of the base to align the plane.
 
 ![image](https://github.com/user-attachments/assets/c34706ed-6128-4f25-bd8e-c6be04ed1f0f)
 
 ![image](https://github.com/user-attachments/assets/842a21de-2347-4665-9fa6-19d5094b026e)
+
+
 
 
 
