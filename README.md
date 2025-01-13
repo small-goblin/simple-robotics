@@ -81,13 +81,7 @@ Then the rotation of the base to align the plane.
 
 ![image](https://github.com/user-attachments/assets/842a21de-2347-4665-9fa6-19d5094b026e)
 
-
-
-
-
-
-
-## Sources
+### Sources
 + [Mini servo gripper](https://www.thingiverse.com/thing:2415)
 + [Gear Types, Design Basics, Applications and More - Basics of Gears](https://youtu.be/ZhDO16FDmxA?si=TrhTgkIMsFZLdley)
 + [Levers and 4 Bar Linkages](https://youtu.be/0MYF8YCf2jQ?si=RR6by026zaeGyJ01)
@@ -95,3 +89,24 @@ Then the rotation of the base to align the plane.
 + [Easy inverse kinematics for robot arms](https://youtu.be/Q-UeYEpwXXU?si=-LuqWcVNqyQoCUL-)
 + [5.1 Inverse Kinematics](https://www.youtube.com/watch?v=RH3iAmMsolo&ab_channel=Woolfrey)
 + [Mechanical Design](https://www.youtube.com/watch?v=CZuBeBztzSY&ab_channel=InfinityMFG)
+
+
+## Micro Controllers
+
+Typically a micro controller is a system on a chip that contains a real time operating system or some kind of bootloader that launches user defined programs. There is usually a number of general purpose IO pins that can do both digital and analog signals. 
+
+Commonly you might output a digital signal like pwm to drive a servo motor or input an analog signal from a sensor. 
+
+The RP2040 is a low cost, low powered, controller. It has a lack of peripherals which makes it undesirable for many IOT projects, but more than capable for hobbyst robotics projects. 
+
+Debugging should be done through the SWD interface using a pico probe or some similar probe board. The offical documentation suggest using their version of openOCD to debug and flash the pico2040 as the standard openocd branch does not suggest all 2040 chips.
+
+### Sources
+
++ [RP2040](https://en.wikipedia.org/wiki/RP2040)
++ [RP2040 vs ESP32](https://www.embedic.com/technology/details/rp2040-vs-esp32--which-microcontroller-is-best-for-your-project-2023-)
++ [RP2040 datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
+
+## Servos
+
+
