@@ -106,7 +106,28 @@ Debugging should be done through the SWD interface using a pico probe or some si
 + [RP2040](https://en.wikipedia.org/wiki/RP2040)
 + [RP2040 vs ESP32](https://www.embedic.com/technology/details/rp2040-vs-esp32--which-microcontroller-is-best-for-your-project-2023-)
 + [RP2040 datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
++ [PID Controller](https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller)
 
 ## Servos
 
+Servos are geared motors which can be turned to different angle position based off of PWM. A pulse is sent to the server and the width of this pulse determines the position that is being requested. 
 
+A servo will try to maintain this position regardless of outside force so long as it recieves this pwm. 
+
+Servos typically have a neutral position of about 90 degrees. 
+
+Cheap servos have to be calibrated via software to make up for their oddities. The actual limitis and range of a servo should be checked before fully integrating it into a project. 
+
+### Sources 
+
++ [Servo Control](https://en.wikipedia.org/wiki/Servo_control)
++ [Servo](https://en.wikipedia.org/wiki/Servo_(radio_control))
+
+## Motors
+
+Driving the direction of a motor requires an H-Bridge. Because the direction of a motor is determined by polarity of voltage, to move forwards or backwards, requires the switching of polarity at varying current. The H-Bridge is a simple way to change polarity of voltage quicky. Interanlly the h bridge is 4 switches that can influence the voltage of a circuit. 
+
+### Sources
++ [H-Bridge](https://en.wikipedia.org/wiki/H-bridge)
++ [H-Bridge](https://www.build-electronic-circuits.com/h-bridge/)
++ [sn754410](https://www.ti.com/lit/ds/symlink/sn754410.pdf)
