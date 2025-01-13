@@ -131,3 +131,36 @@ Driving the direction of a motor requires an H-Bridge. Because the direction of 
 + [H-Bridge](https://en.wikipedia.org/wiki/H-bridge)
 + [H-Bridge](https://www.build-electronic-circuits.com/h-bridge/)
 + [sn754410](https://www.ti.com/lit/ds/symlink/sn754410.pdf)
+
+
+## 3D Printing
+
+FDM (Fused deposition modeling) is where you drive hot pastic through a nozzle in layers one after another to create a 3D print.
+
+In regards to robotics, tolerance of parts is very important. These settings impact tolerances:
+
+- Horizontal Expansion
+- Over Extruding
+- Temperature
+- Print Speed
+
+### Horizontal Expansion
+Negative values shrink the print, positive values make it bigger, in the xy plane. This can correct some tolerance issues in printing. It can also correct elephant footing, where the first layer is too large when compared to following layers. 
+
+### Over Extruding
+It is best to first correct any over or under extrusion that may be happening as that can also impact the tolerance of a part.
+
+### Temperature
+1. Configure the printer to correctly print at the filament brand stated temperature as it can be different between vendors.
+2. Control the ambient temperature of the room the the printer operates in
+3. Print at the lowest settings required for the material if possible.
+
+### Print Speed
+Lowering the print speed ultimately decreases errors that the printer may make due to jerk. Ultimately it impacts the shape of the final print. 
+
+### Sources
++ [fdm printing](https://all3dp.com/2/fused-deposition-modeling-fdm-3d-printing-simply-explained/)
++ [Horizontal Expansion](https://the3dprinterbee.com/cura-horizontal-expansion/#:~:text=The%20horizontal%20expansion%20is%20specified%20in%20millimeters%20and,object%2C%20only%20the%20first%20layer%20or%20for%20holes.)
++ [How To Calibrate Your 3D Printers Extruder Esteps ](https://youtu.be/6PL_rSPZ3M8?si=Yx9DdClGU_MXlPtU)
+
+
