@@ -145,7 +145,10 @@ In regards to robotics, tolerance of parts is very important. These settings imp
 - Print Speed
 
 ### Horizontal Expansion
-Negative values shrink the print, positive values make it bigger, in the xy plane. This can correct some tolerance issues in printing. It can also correct elephant footing, where the first layer is too large when compared to following layers. 
+Negative values remove material, positive values add material. This can compensate for parts that don't fit together nicely. Holes in prints will get larger, but the overall print will be smaller, for negative values. The opposite is also true. 
+
+![image](https://github.com/user-attachments/assets/ed09f260-eddc-464d-929f-c37a3ed14e9d)
+
 
 ### Over Extruding
 It is best to first correct any over or under extrusion that may be happening as that can also impact the tolerance of a part.
